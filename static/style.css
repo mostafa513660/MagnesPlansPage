@@ -1,0 +1,105 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+
+.free {
+  border: 2px solid deepskyblue;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 280px;
+  border-radius: 15px;
+}
+
+
+.free h3 {
+  margin-top: 0;
+}
+.premium {
+  border: 2px solid red;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 280px;
+  border-radius: 15px;
+}
+
+.premium h3 {
+  margin-top: 0;
+}
+
+.admins {
+  border: 2px solid gold;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 280px;
+  border-radius: 15px;
+}
+
+.admins h3 {
+  margin-top: 0;
+}
+
+
+.feature {
+  font-weight: bold;
+  display: inline-block;
+  width: 150px;
+  vertical-align: top;
+  text-align: left;
+}
+
+.value {
+  display: inline-block;
+  width: calc(100% - 170px);
+  margin-left: 10px;
+  vertical-align: top;
+  text-align: right;
+}
+
+@media screen and (max-width: 600px) and (max-height: 800px) {
+  .free {
+    display: block;
+    width: auto;
+  }
+ .premium {
+    display: block;
+    width: auto;
+  }
+ .admins {
+    display: block;
+    width: auto;
+  }
+}
+
+#free-plan {
+  color: deepskyblue;
+  text-align: center;
+  text-shadow:
+    0 0 5px deepskyblue,
+    0 0 7px deepskyblue;
+  font-size: 30px;
+}
+
+#premium-plan {
+  color: red;
+  text-align: center;
+  text-shadow:
+    0 0 5px red,
+    0 0 7px red;
+  font-size: 30px;
+}
+
+#admins-plan {
+  color: gold;
+  text-align: center;
+  text-shadow:
+    0 0 5px gold,
+    0 0 7px gold;
+  font-size: 30px;
+}
+
+
